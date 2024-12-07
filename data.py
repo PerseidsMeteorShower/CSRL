@@ -835,7 +835,8 @@ def score_rule(rule, data, total_dict, rate):
     body = split_rule(rule)
 
     if gpt_t + gpt_f == 0:
-        return 0
+        gpt_t = 10
+        valid = valid - 1
 
     commonscore = gpt_t / (gpt_t + gpt_f)
     structuredscore = valid / total_dict[body]
