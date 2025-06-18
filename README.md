@@ -15,7 +15,7 @@
 
 Learning logical rules that align to real world and truly have  **causal** relationships, while mitigating **hallucinations**.
 
-This is the official implementation of the paper ["A Unified Framework for Rule Learning: Integrating Commonsense Knowledge from LLMs with Structured Knowledge from Knowledge Graphs"](https://openreview.net/pdf?id=8m3MYjLk0y).
+This is the official implementation of the paper "A Unified Framework for Rule Learning: Integrating Commonsense Knowledge from LLMs with Structured Knowledge from Knowledge Graphs".
 
 <img src="images/structure.png" width = "900" />
 
