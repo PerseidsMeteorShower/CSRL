@@ -8,7 +8,6 @@
 - [Requirements](#requirements)
 - [Dataset](#dataset)
 - [Usage](#usage)
-- [Results](#results)
 - [Acknowledgement](#acknowledgement)
  
 ## Overview  
@@ -93,27 +92,6 @@ Meanings of each parameter:
 * --max_path_len: The maximum length of the learned rules.
 * --gpt_model: The GPT model uesd to assess the semantic reliability of rules, which should be as advanced as possible.
 * --eva_num: Number of rules to be tested.
-
-## Results
-1. KG Completion.
-
-<img src="images/kg-completion.png" width = "800" />
-
-2. LLM-based Semantic Assessment. 
-
-<img src="images/llm-semantic.png" width = "400" />
-
-3. Human-based Semantic Assessment
-
-<img src="images/human-semantic.png" width = "300" />
-
-4. LLM Cost
-
-<img src="images/cost.png" width = "350"/>
-
-5. Case Studies
-
-<img src="images/case-study.png" width = "650" />
 
 ## Acknowledgement
 
